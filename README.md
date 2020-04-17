@@ -1,5 +1,7 @@
-# ATReg 
-Coming soon! Code review processing.
+# An Auto-Context based Tissue-Aware Deformable Registration Network for Infant Brain MRI
+Coming soon! Code review processing. Welcome for any bugs report.
+
+
 ## Instruction
 This code is for registering infant brain MR images. The registration is based on the segmentation map (gray matter, white matter). You can try to modify the directory in train.py to train your model. Or you can directly use test.py to test your data, where one trained model is given in ./models.
 
