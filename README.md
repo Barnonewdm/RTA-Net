@@ -27,3 +27,6 @@ cd ./src
 ## Result
 <img src='./Fig/Result_with_Grid.png' />
 <img src='./Fig/Smoothness_Comparison.png'>
+
+# Contact:
+For any problems, please open an [issue](https://github.com/Barnonewdm/ACTA-Reg-Net/issues/new).
