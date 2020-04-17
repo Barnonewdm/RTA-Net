@@ -16,6 +16,9 @@ python train.py
 python test.py
 ```
 
+## Demo
+./demo.sh -m moving.nii.gz -l moving_label.nii.gz -n save_dir
+
 ## Result
 <img src='./Fig/Result_with_Grid.png' />
 <img src='./Fig/Smoothness_Comparison.png'>
