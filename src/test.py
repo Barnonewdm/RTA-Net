@@ -104,22 +104,22 @@ def test(gpu_id, model_dir, iter_num,
             warp_seg = nn_trf_model.predict([X_seg, pred])[0,...,0]
             flow = pred[0, ...]
             log = log[0, ...]
-
+        SAVE_DIR='../data/results'
         result_seg = sitk.GetImageFromArray(warp_seg*250)
         result_seg.CopyInformation(mov)
-        sitk.WriteImage(result_seg,'../data/baseline_without_surface/warped_seg.nii.gz')
+        sitk.WriteImage(result_seg, SAVE_DIR + '/warped_seg.nii.gz')
         result_label = sitk.GetImageFromArray(warp_label)
         result_label.CopyInformation(mov)
-        sitk.WriteImage(result_label, '../data/baseline_without_surface/warped_label.nii.gz')
+        sitk.WriteImage(result_label, SAVE_DIR + '/warped_label.nii.gz')
         #compute deformation field
         result_field = flow
         result_field = sitk.GetImageFromArray(result_field)
         result_field.CopyInformation(mov)
-        sitk.WriteImage(result_field,'../data/baseline_without_surface/field.mha')
+        sitk.WriteImage(result_field,SAVE_DIR + '/field.mha')
 
         #compute the log
         log = sitk.GetImageFromArray(log)
-        sitk.WriteImage(log, '../data/baseline_without_surface/log.mha')
+        sitk.WriteImage(log, SAVE_DIR + '/log.mha')
 
 if __name__ == "__main__":
     """
