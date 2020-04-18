@@ -10,6 +10,7 @@ For obtaining a ACTA-Reg-Net, you need to work on ./src/demo.sh to run all the e
 ## Requriement
 - Tensorflow
 - Keras
+- Bash
 
 ## Train
 ```bash
