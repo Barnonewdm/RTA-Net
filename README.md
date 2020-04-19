@@ -16,6 +16,8 @@ For obtaining a ACTA-Reg-Net, you need to work on ./src/demo.sh to run all the e
 ```bash
 python train.py
 ```
+For training your dataset, you need to modify the data directory in the trian.py. For our task, we save the infant brian images into the ../data/MAPS_DATASET/Train_Set. 
+After this step, you have obtained your Reg-Net, which is supposed to generate smooth deformation fields. Then, you can execute the demo.sh to perform 'auto-context' manner to boost the registration performance.
 
 ## Test
 ```bash
