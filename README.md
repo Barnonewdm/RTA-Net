@@ -19,7 +19,7 @@ python train.py
 
 ## Test
 ```bash
-python test.py
+python test.py gpu_id ../models/ iteration_num fixed.nii.gz moving.nii.gz moving_label.nii.gz
 ```
 
 ## Demo
@@ -27,6 +27,7 @@ python test.py
 cd ./src
 ./demo.sh -m moving.nii.gz -l moving_label.nii.gz -n save_dir
 ```
+The results are saved into ../data/results/*, including warped moving image, moving label, deformation field, and displacement uncertainty map.
 ## Result
 <img src='./Fig/Result_with_Grid.png' />
 <img src='./Fig/Smoothness_Comparison.png'>
