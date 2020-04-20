@@ -27,7 +27,7 @@ python test.py gpu_id ../models/ iteration_num fixed.nii.gz moving.nii.gz moving
 ## Demo
 ```bash
 cd ./src
-./demo.sh -m moving.nii.gz -l moving_label.nii.gz -n save_dir
+./demo.sh -m moving.nii.gz -l moving_label.nii.gz -n save_dir -f fixed.nii.gz
 ```
 The results are saved into ../data/results/*, including warped moving image, moving label, deformation field, and displacement uncertainty map.
 ## Result
