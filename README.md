@@ -8,8 +8,8 @@ This code is for registering infant brain MR images. The registration is based o
 For obtaining a ACTA-Reg-Net, you need to work on ./src/demo.sh to run all the experiment.
 
 ## Requriement
-- Tensorflow
-- Keras
+- Tensorflow 1.10
+- Keras 2.2.4
 - Bash
 
 ## Train
