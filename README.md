@@ -9,7 +9,7 @@ For obtaining a ACTA-Reg-Net, you need to work on ./src/demo.sh to run all the e
 
 ## Requriement
 - Python 3.6 (3.7 should work well)
-- Tensorflow 1.10
+- Tensorflow 1.10 (any 1.xx version should work well)
 - Keras 2.2.4
 - Bash
 You can choose to run
