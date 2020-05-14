@@ -228,7 +228,7 @@ def sample(args, stage):
 
 def log_exp(args):
     log_sigma = args
-    sigma = 6.0 * 3.0*tf.exp(log_sigma/2.0)
+    sigma = 6.0 ** 0.5 * 3.0*tf.exp(log_sigma/2.0)
     
     return sigma 
 
