@@ -3,11 +3,15 @@ Coming soon! Code review processing. Welcome for any bugs report.
 
 
 ## Instruction
-This code is for registering infant brain MR images. The registration is based on the segmentation map (gray matter, white matter). You can try to modify the directory in train.py to train your model. Or you can directly use test.py to test your data, where one trained model is given in ./models.
+<img src='./Fig/Auto-Context.png' />
+<img src='./Fig/TAReg.png' />
 
-For obtaining a ACTA-Reg-Net, you need to work on ./src/demo.sh to run all the experiment.
 
-## Requriement
+This code is for registering infant brain MR images. The registration is based on the segmentation map (gray matter, white matter). You can try to modify the directory in train.py to train your model. Or you can directly use test.py to test your data, where a trained model is given in ./models.
+
+For obtaining an ACTA-Reg-Net, you need to work on ./src/demo.sh to run all the experiments.
+
+## Requirements
 - Python 3.6 (3.7 should work well)
 - Tensorflow 1.10 (any 1.xx version should work well)
 - Keras 2.2.4
@@ -23,7 +27,7 @@ pip install -r requirements.txt
 python train.py
 ```
 For training your dataset, you need to modify the data directory in the trian.py. For our task, we save the infant brian images into the ../data/MAPS_DATASET/Train_Set. 
-After this step, you have obtained your Reg-Net, which is supposed to generate smooth deformation fields. Then, you can execute the demo.sh to perform 'auto-context' manner to boost the registration performance.
+After this step, you have obtained your Reg-Net, which is supposed to generate smooth deformation fields. Then, you can execute the demo.sh to perform an 'auto-context' manner to boost the registration performance.
 
 ## Test
 ```bash
