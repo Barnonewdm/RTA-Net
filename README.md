@@ -3,7 +3,7 @@ Coming soon! Code review processing. Welcome for any bugs report.
 
 
 ## Instruction
-<img src='./Fig/Auto-Context.png' />
+<img src='./Fig/Auto_Context.png' />
 <img src='./Fig/TAReg.png' />
 
 
