@@ -1,7 +1,7 @@
 # An Auto-Context based Tissue-Aware Deformable Registration Network for Infant Brain MRI
 Coming soon! Code review processing. Welcome for any bugs report.
 
-  * If you use voxelmorph or some part of the code, please cite:
+  * If you use ACTA-Reg-Net, please cite:
 
     **An Auto-Context Deformable Registration Network for Infant Brain MRI**    
  Dongming Wei, Sahar Ahmad, Yunzhi Huang, Lei Ma, Qian Wang, Pew-Thian Yap, Dinggang Shen    
@@ -54,5 +54,11 @@ The results are saved into ../data/results/*, including warped moving image, mov
 <img src='./Fig/Result_with_Grid.png' />
 <img src='./Fig/Smoothness_Comparison.png'>
 
+# Acknowledgement:
+We would like to acknowledge the contribution of [VoxelMorph](https://github.com/voxelmorph/voxelmorph).
+
+
 # Contact:
 For any problems, please open an [issue](https://github.com/Barnonewdm/ACTA-Reg-Net/issues/new).
+
+
