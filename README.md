@@ -1,6 +1,11 @@
 # An Auto-Context based Tissue-Aware Deformable Registration Network for Infant Brain MRI
 Coming soon! Code review processing. Welcome for any bugs report.
 
+  * If you use voxelmorph or some part of the code, please cite:
+
+    **An Auto-Context Deformable Registration Network for Infant Brain MRI**    
+ Dongming Wei, Sahar Ahmad, Yunzhi Huang, Lei Ma, Qian Wang, Pew-Thian Yap, Dinggang Shen    
+ [eprint arXiv:2005.09230](https://arxiv.org/abs/2005.09230)
 
 ## Instruction
 <img src='./Fig/Auto_Context.png' />
