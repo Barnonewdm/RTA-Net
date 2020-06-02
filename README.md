@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 Or you can perform
 ```bash
-conda -n tf14-py36 python=3.6
+conda create -n tf10-py36 python=3.6
 conda activate tf10-py36
 conda install tensorflow-gpu==1.10
 ```
