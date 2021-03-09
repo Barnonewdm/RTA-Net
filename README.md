@@ -4,7 +4,7 @@ Coming soon! Code review processing. Welcome for any bugs report.
   * If you use ACTA-Reg-Net, please cite:
 
     **An Auto-Context Deformable Registration Network for Infant Brain MRI**    
- Dongming Wei, Sahar Ahmad, Yunzhi Huang, Lei Ma, Qian Wang, Pew-Thian Yap, Dinggang Shen    
+ Dongming Wei, Sahar Ahmad, Yunzhi Huang, Lei Ma, Zhengwang Wu, Gang Li, Li Wang, Qian Wang, Pew-Thian Yap, Dinggang Shen    
  [eprint arXiv:2005.09230](https://arxiv.org/abs/2005.09230)
 
 ## Instruction
