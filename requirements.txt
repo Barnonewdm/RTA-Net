@@ -5,5 +5,5 @@ Keras-Preprocessing==1.0.9
 numpy==1.13.3
 SimpleITK==1.2.0
 tensorboard==1.10.0
-tensorflow==1.10.0
+tensorflow==2.4.0
 tensorflow-tensorboard==0.1.5
