@@ -130,10 +130,11 @@ def Reg_Net(vol_size, enc_nf, dec_nf, int_steps=7, use_miccai_int=False, indexin
                             bias_initializer=keras.initializers.Constant(value=-10),
                             name='log_sigma')(x_out)
     
-    flow_mean = gaussian_layers.GaussianSmoother()([flow_mean, flow_log_sigma])
+    
     flow_params = concatenate([flow_mean, flow_log_sigma])
     # velocity sample
     flow = Sample(name="z_sample", stage=stage)([flow_mean, flow_log_sigma])
+    flow = gaussian_layers.GaussianSmoother()([flow, flow_log_sigma])
     # integrate if diffeomorphic (i.e. treating 'flow' above as stationary velocity field)
     if use_miccai_int:
         # for the miccai2018 submission, the squaring layer
