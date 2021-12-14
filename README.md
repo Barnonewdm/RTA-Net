@@ -1,5 +1,5 @@
-# An Auto-Context based Tissue-Aware Deformable Registration Network for Infant Brain MRI
-Coming soon! Code review processing. Welcome for any bugs report.
+# Recurrent Tissue-Aware Network for Deformable Registration of Infant Brain MR Images
+Code review processing. Welcome for any bug report!
 
 ## Background
 Infant brain image registration is crucial for longitudinal and population-based analysis. It can help study early brain development during infancy, often with
