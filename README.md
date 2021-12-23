@@ -13,10 +13,11 @@ we have validated the traditional registration methods like Demons and ANTs, and
   * If you use ACTA-Reg-Net, please cite:
     
     **Recurrent Tissue-Aware Network for Deformable Registration of Infant Brain MR Images**   
-    Dongming Wei, Sahar Ahmad, Yuyu Guo, Liyun Chen, Yunzhi Huang, Lei Ma, Zhengwang Wu, Gang Li, Li Wang, Weili Lin, Pew-Thian Yap, Dinggang Shen, Qian Wang
+    Dongming Wei, Sahar Ahmad, Yuyu Guo, Liyun Chen, Yunzhi Huang, Lei Ma, Zhengwang Wu, Gang Li, Li Wang, Weili Lin, Pew-Thian Yap, Dinggang Shen, Qian Wang\
+    [IEEE Transactions on Medical Imaging](https://ieeexplore.ieee.org/document/9656924)
 
     **An Auto-Context Deformable Registration Network for Infant Brain MRI**    
-    Dongming Wei, Sahar Ahmad, Yunzhi Huang, Lei Ma, Zhengwang Wu, Gang Li, Li Wang, Qian Wang, Pew-Thian Yap, Dinggang Shen    
+    Dongming Wei, Sahar Ahmad, Yunzhi Huang, Lei Ma, Zhengwang Wu, Gang Li, Li Wang, Qian Wang, Pew-Thian Yap, Dinggang Shen\  
     [eprint arXiv:2005.09230](https://arxiv.org/abs/2005.09230)
 
 ## Instruction
